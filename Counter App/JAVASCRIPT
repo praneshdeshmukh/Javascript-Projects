@@ -1,0 +1,33 @@
+// Javascript
+let catchIncrementBtn = document.querySelector(".incrementbtn") 
+let catchDecrementBtn = document.querySelector(".decrementbtn")
+let showDisplayValue = document.querySelector(".displayValue")
+let catchResetBtn = document.querySelector(".resetbtn") 
+
+catchDecrementBtn.addEventListener("click", () => {
+
+    const convertedValue = Number(showDisplayValue.innerText);
+    if (convertedValue > 0) {
+        showDisplayValue.innerText = convertedValue - 1;
+    }
+    else {
+        alert("Invalid number input");
+    }
+ });
+
+ catchIncrementBtn.addEventListener("click", () => {
+
+    const convertedValue = Number(showDisplayValue.innerText);
+    if (convertedValue >= 10) {
+        alert("Maximum Limit");
+    }
+    else {
+        showDisplayValue.innerText = convertedValue + 1;
+    }
+ });
+
+ catchResetBtn.addEventListener("click", () => {
+
+    showDisplayValue.innerText = 0;
+
+ })
