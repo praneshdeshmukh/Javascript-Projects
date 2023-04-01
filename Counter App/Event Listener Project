@@ -1,1 +1,30 @@
 // Event listeners
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event listeners - 27/03/2023</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="btn">
+        <button class="btn btn1" id="clk">Clickkk me</button>
+        <button class="btn btn2" id="dbclickbtn">Double Click</button>
+        <button class="btn btn3" id="mouseovr">Hover Me</button>
+        <button class="btn btn4" id="mouseot">Mouse Out</button>
+      </div>
+    </div>
+    <div class="keypressbtn">
+      <h1 id="display">hello</h1>
+      <input type="text" id="inputbox" placeholder="type something..." />
+    </div>
+    <div id="press_key">
+      <div id="displaythis">Press any key</div>
+    </div>
+
+    <script src="eventListener.js"></script>
+  </body>
+</html>
