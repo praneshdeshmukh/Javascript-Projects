@@ -1,0 +1,51 @@
+// CSS
+h1 {
+    font-style: oblique;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 100;
+}
+.increment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    gap: 20px;
+}
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.incrementbtn {
+    background-color: transparent;
+    padding: 10px 30px ;
+    border: 2px solid black;
+    border-radius: 12px 20px 12px;
+    cursor: pointer;
+}
+.displayValue {
+    color: #ececec;
+    cursor: pointer;
+    height: 30px;
+    width: 5%;
+    text-align: center;
+    padding-top: 5px;
+    background-color: red ;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px;
+}
+button.decrementbtn {
+    background-color: transparent;
+    padding: 10px 30px ;
+    border: 2px solid black;
+    border-radius: 12px 20px 12px;
+}
+button.resetbtn {
+    background-color: transparent;
+    padding: 10px 30px ;
+    border: 2px solid black;
+    border-radius: 12px 20px 12px;
+    cursor: pointer;
+}
