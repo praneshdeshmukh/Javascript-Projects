@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Share my profile | </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+    <div class="wrapper">
+        <div class="card-wrapper">
+            <div class="profilePic">
+                <img src="pranesh photo.jpg" alt="">
+            </div>
+            <div class="user-name">
+                <h2>Pranesh Deshmukh</h2>
+            </div>
+            <div class="designation">
+                <h4>BTech 2nd Year</h3>
+            </div>
+            <div class="bottom-group">
+                <button onclick="openModel()" class="btn-share btn-card">
+                    <i class="fa-solid fa-share"></i>
+                    <div>Share My Profile</div>
+                </button>
+                <button class="btn-follow btn-card">Follow Me!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay">
+    <div class="model">
+        <div class="model-header">
+            <h1>share my profile</h1>
+            <div>    
+                <i onclick="closeModel()" class="fa-solid fa-xmark close"></i>
+            </div>
+        </div>
+
+        <h3>Share this via</h3>
+        <div class="icon-container">
+            <a href="#" class="icon" id="facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="icon" id="twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="icon" id="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" class="icon" id="telegram">
+                <i class="fa-brands fa-telegram"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
